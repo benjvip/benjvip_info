@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div>
      
-      <nav className="w-full bg-[#85BB65] shadow">
+      <nav className="w-screen bg-[#85BB65] shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex w-full items-center justify-between py-3 md:py-5 md:block">
