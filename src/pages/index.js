@@ -17,7 +17,7 @@ export default function Home() {
         <title>BENJAMIN</title>
         <meta name="description" content="$BENJ" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
     <main
       className="flex  min-h-screen flex-col bg-cover bg-[#577C43]"
