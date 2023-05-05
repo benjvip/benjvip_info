@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <main
-      className="flex  min-h-screen flex-col bg-cover bg-[#577C43]"
+      className="flex w-screen min-h-screen flex-col bg-cover bg-[#577C43]"
     >
        <div className=' bg-dolar w-full   bg-cover bg-center h-8'></div>
        <Hero id="#home"></Hero>
