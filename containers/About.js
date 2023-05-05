@@ -19,12 +19,12 @@ export default function About({ id }) {
         <div id={id} className={righteous.className}>
             <div className="w-full items-center justify-center">
           <div className="order-0">
-            <div className="text-2xl md:text-4xl w-full lg:text-[80px] text-white md:pl-12 ">
+            <div className="text-2xl md:text-4xl w-full lg:text-[80px] text-white px-8 ">
               about
             </div>
           </div>
           <div className={rubik.className}>
-            <div className="w-full  text-lg md:text-2xl lg:text-md text-white pt-8 md:pl-12 ">
+            <div className="w-full  text-lg md:text-2xl lg:text-md text-white pt-8 px-8 ">
               Benjamin is tired of watching everyone play hot potato with the
               endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins.
               The Inu’s have had their day.It’s time for the most recognizable
