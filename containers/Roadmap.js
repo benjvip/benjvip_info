@@ -5,14 +5,14 @@ import Image from "next/image";
 import tax from "../public/assets/tax.png"
 import hat from "../public/assets/hat.png";
 
-export default function Roadmap() {
+export default function Roadmap({id}) {
   return (
     <div className="w-screen flex flex-col justify-center items-center pb-24 ">
       <div className={righteous.className}>
-        <div className="font-outline-1 w-full flex items-center justify-center text-white text-[80px] py-12">
+        <div  className="font-outline-1 w-full flex items-center justify-center text-white text-[80px] py-12">
           roadmap
         </div>
-        <div className="md:flex  justify-center lg:space-x-8 items-center "><Image  width={300} height={300} src={hat} className="mb-20"></Image> 
+        <div id={id}className="md:flex  justify-center lg:space-x-8 items-center "><Image  width={300} height={300} src={hat} className="mb-20"></Image> 
         <div className="md:flex text-center items-center justify-center  shadow-2xl shadow-[#ffffff4D]  bg-[#2B3E21] my-4 p-4 border-2 rounded-tr-2xl rounded-bl-2xl border-white">
           <div className="flex flex-col text-white font-outline-0 ">
            

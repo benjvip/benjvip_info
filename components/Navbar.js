@@ -8,8 +8,18 @@ import Head from 'next/head';
 
 const righteous = Righteous({ weight: "400", subsets: ["latin"] });
 
+
+
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
+
+  const goToSection = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+      inline: "center",
+    });
+  };
   return (
     <div>
      
@@ -68,29 +78,29 @@ export default function Home() {
                 <div className={righteous.className}>
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white text-2xl">
-                  <Link href="/" legacyBehavior>
-                    <a>home</a>
-                  </Link>
+                  <div className="cursor-pointer" onClick={() => goToSection("#home")} >
+                    home
+                  </div>
                 </li>
                 <li className="text-white text-2xl">
-                  <Link href="/blogs" legacyBehavior>
-                    <a>about</a>
-                  </Link>
+                  <div className="cursor-pointer" onClick={() => goToSection("#about")} >
+                    about
+                  </div>
                 </li>
                 <li className="text-white text-2xl">
-                  <Link href="/about" legacyBehavior>
-                    <a>how to buy</a>
-                  </Link>
+                  <div className="cursor-pointer" onClick={() => goToSection("#how")} >
+                    how to buy
+                  </div>
                 </li>
                 <li className="text-white text-2xl">
-                  <Link href="/contact" legacyBehavior>
-                    <a>tokenomics</a>
-                  </Link>
+                  <div className="cursor-pointer" onClick={() => goToSection("#token")}>
+                    tokenomics
+                  </div>
                 </li>
                 <li className="text-white text-2xl">
-                  <Link href="/contact" legacyBehavior>
-                    <a>roadmap</a>
-                  </Link>
+                  <div className="cursor-pointer" onClick={() => goToSection("#road")}>
+                   roadmap
+                  </div>
                 </li>
                  <div ><div className={righteous.className}>
             <div className="px-4 text-white rounded-3xl flex items-center py-4 justify-center border border-white hover:bg-[#A8D190]">

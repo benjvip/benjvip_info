@@ -5,15 +5,15 @@ const rubik = Rubik({ weight: "300", subsets: ["latin"] });
 import Image from "next/image";
 import chart from "../public/assets/chart.png";
 
-export default function Tokenomics() {
+export default function Tokenomics({id}) {
   return (
     <div className="w-screen flex flex-col justify-center items-center py-24 ">
       <div className={righteous.className}>
-        <div className="font-outline-1 w-full flex items-center justify-center text-white text-[54px] md:text-[60px] lg:text-[80px] pb-12">
+        <div id={id}className="font-outline-1 w-full flex items-center justify-center text-white text-[54px] md:text-[60px] lg:text-[80px] pb-12">
           tokenomics
         </div>
         <div>
-          <div className="lg:flex w-full px-0 md:px-16  justify-between items-center md:space-x-8">
+          <div  className="lg:flex w-full px-0 md:px-16  justify-between items-center md:space-x-8">
             <div className={righteous.className}>
             
                 <div className="text-white  font-outline-1 text-4xl text-center">
