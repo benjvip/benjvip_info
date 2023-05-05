@@ -6,11 +6,19 @@ import Howtobuy from '../../containers/Howtobuy'
 import Tokenomics from '../../containers/Tokenomics'
 import Roadmap from '../../containers/Roadmap'
 import Contact from '../../containers/Contact'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+    <>
+    <Head>
+        <title>BENJAMIN</title>
+        <meta name="description" content="$BENJ" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.png" />
+      </Head>
     <main
       className="flex  min-h-screen flex-col bg-cover bg-[#577C43]"
     >
@@ -29,6 +37,6 @@ export default function Home() {
        <div className=' bg-dolar w-full   bg-cover bg-center h-12 flex justify-center items-center text-white font-black'>
        © 2023 by BENJAMIN. All rights reserved!
        </div>
-    </main>
+    </main></>
   )
 }
