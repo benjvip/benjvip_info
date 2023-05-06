@@ -61,7 +61,7 @@ export default function About({ id }) {
                 className="w-full  text-lg md:text-2xl lg:text-md text-white px-12 md:px-0 pt-8"
               >
                 Benjamin is tired of watching everyone play hot potato with the
-                endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu
+                endless derivative ShibaCumGMElonKishuTurboAss FlokiMoon Inu
                 coins. The Inu’s have had their day.It’s time for the most
                 recognizable meme in the world to take his reign as king of the
                 memes. <br></br>
