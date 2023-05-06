@@ -58,7 +58,7 @@ export default function About({ id }) {
                   },
                 }}
                 viewport={{ once: true }}
-                className="w-full  text-lg md:text-2xl lg:text-md text-white pt-8"
+                className="w-full  text-lg md:text-2xl lg:text-md text-white px-12 md:px-0 pt-8"
               >
                 Benjamin is tired of watching everyone play hot potato with the
                 endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu
