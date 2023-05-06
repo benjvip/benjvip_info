@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 
 export default function Howtobuy({ id }) {
   return (
-    <div className="w-screen flex flex-col justify-center items-center ">
+    <div className="w-screen flex flex-col justify-center items-center mb-16 ">
       <div className={righteous.className}>
         <motion.div
         initial="hidden"
@@ -60,20 +60,7 @@ export default function Howtobuy({ id }) {
         sub="switch eth for $benj. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility."
       ></Steps>
 
-      <motion.div  animate={{
-        scale: [1, 1.2, 1.2, 1.2, 1],
-        rotate: [0, 30, 0, -30, 0],
-     
-      }}
-      transition={{
-        duration: 4,
-        ease: "easeInOut",
-        times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: Infinity,
-        repeatDelay: 3
-      }} className="md:flex w-full items-center p-8 justify-center space-x-8">
-        <Image src={logorev}></Image>
-      </motion.div>
+      
     </div>
   );
 }
