@@ -10,21 +10,24 @@ export default function Roadmap({ id }) {
   return (
     <div className="w-screen flex flex-col justify-center items-center pb-24 ">
       <div className={righteous.className}>
-        <motion.div initial="hidden"
-        whileInView="visible"
-        variants={{
-          hidden: {
-            scale: 0.6,
-            opacity:0,
-          },
-          visible: {
-            scale: 1,
-            opacity: 1,
-            transition: {
-              delay: 0.4,
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={{
+            hidden: {
+              scale: 0.6,
+              opacity: 0,
             },
-          },
-        }} className="font-outline-1 w-full flex items-center justify-center text-white text-[80px] py-12">
+            visible: {
+              scale: 1,
+              opacity: 1,
+              transition: {
+                delay: 0.4,
+              },
+            },
+          }}
+          className="font-outline-1 w-full flex items-center justify-center text-white text-[80px] py-12"
+        >
           roadmap
         </motion.div>
         <div
@@ -71,7 +74,8 @@ export default function Roadmap({ id }) {
               </div>
             </div>
           </motion.div>
-          <motion.div initial="hidden"
+          <motion.div
+            initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={{
@@ -89,13 +93,10 @@ export default function Roadmap({ id }) {
                   rotate: 360,
                 },
               },
-            }}>
-          <Image
-            src={tax}
-            width={300}
-            height={300}
-            className="mb-20"
-          ></Image></motion.div>
+            }}
+          >
+            <Image src={tax} width={300} height={300} className="mb-20"></Image>
+          </motion.div>
         </div>
       </div>
       <div className={rubik.className}>

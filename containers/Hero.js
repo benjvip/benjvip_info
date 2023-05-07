@@ -60,13 +60,14 @@ export default function Hero({ id }) {
           </motion.div>
         </div>
       </div>
-      <motion.div initial={{ scale: 0 }}
-  animate={{ rotate: 360, scale: 1 }}
-  transition={{
-    type: "spring",
-    stiffness: 260,
-    damping: 20
-  }}
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20,
+        }}
         className="w-full  md:h-full  flex items-center justify-center"
       >
         <Image
