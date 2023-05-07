@@ -28,7 +28,7 @@ export default function Contact() {
 <div className={rubik.className}>
         <div className="w-full flex justify-center text-center">
           <div className="text-white w-3/4 font-outline-0 text-2xl py-8">
-          $benj coin has no association with Matt Furie or his creation Pepe the Frog. This token is simply paying homage to a meme we all love and recognize.
+          $benj coin has no association with anyone. This token is simply paying homage to a meme we all love and recognize.
           </div>
         </div>
       </div>

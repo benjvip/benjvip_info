@@ -47,12 +47,12 @@ export default function Howtobuy({ id }) {
       <Steps
         src={eth}
         title="get some eth"
-        sub="have ETH in your wallet to switch to $PEPE. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet."
+        sub="have ETH in your wallet to switch to $BENJ. If you don’t have any ETH, you can buy directly on metamask, transfer from another wallet, or buy on another exchange and send it to your wallet."
       ></Steps>
       <Steps
         src={uniswap}
         title="go to uniswap"
-        sub="connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $PEPE token address into Uniswap, select Pepe, and confirm. When Metamask prompts you for a wallet signature, sign."
+        sub="connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your Metamask app. Connect your wallet. Paste the $BENJ token address into Uniswap, select BENJ, and confirm. When Metamask prompts you for a wallet signature, sign."
       ></Steps>
       <Steps
         src={swap}

@@ -77,7 +77,7 @@ export default function Tokenomics({ id }) {
                       the supply is being held in a multi-sig wallet only to be
                       used as tokens for future centralized exchange listings,
                       bridges, and liquidity pools. This wallet is easily
-                      trackable with the ENS name “pepecexwallet.eth”
+                      trackable with the ENS name “benjcexwallet.eth”
                     </div>
                   </div>
                 </div>

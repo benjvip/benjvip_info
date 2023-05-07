@@ -102,7 +102,7 @@ export default function Roadmap({ id }) {
       <div className={rubik.className}>
         <div className="w-full flex justify-center text-center">
           <div className="text-white w-3/4 font-outline-0 text-2xl py-8">
-            All jokes aside, here is a rough sketch of $pepe path ahead. We dont
+            All jokes aside, here is a rough sketch of $benj path ahead. We dont
             wan’t to give everything away on day 1, Expect surprises along the
             way ;)
           </div>
@@ -122,7 +122,7 @@ export default function Roadmap({ id }) {
             <div className={rubik.className}>
               <div className="text-xl pb-4 px-12">
                 &#8226; Launch <br></br>&#8226;CoinGecko/Coinmarketcap Listings{" "}
-                <br></br>&#8226; 1,000+ Holders <br></br>&#8226; Get $PEPE
+                <br></br>&#8226; 1,000+ Holders <br></br>&#8226; Get $BENJ
                 Trending on twitter with our memetic power
               </div>
             </div>
@@ -140,8 +140,8 @@ export default function Roadmap({ id }) {
 
             <div className={rubik.className}>
               <div className="text-xl pb-4 px-12 ">
-                &#8226; Community Partnerships Pepe Times digital newsletter
-                <br></br>&#8226; Formation of token gated discord group, Pepe
+                &#8226; Community Partnerships Benj Times digital newsletter
+                <br></br>&#8226; Formation of token gated discord group, Benj
                 Palace, for holders, more details tba <br></br>&#8226; CEX
                 Listings 10,000+holders
               </div>
@@ -160,8 +160,8 @@ export default function Roadmap({ id }) {
 
             <div className={rubik.className}>
               <div className="text-xl pb-4 px-12">
-                &#8226; Pepe merch <br></br>&#8226; Pepe Academy <br></br>
-                &#8226; Pepe Tools <br></br>&#8226; T1 Exchange Listings
+                &#8226; Benj merch <br></br>&#8226; Benj Academy <br></br>
+                &#8226; Benj Tools <br></br>&#8226; T1 Exchange Listings
                 100,000+ holders
                 <br></br>&#8226; Meme Takeover
               </div>
