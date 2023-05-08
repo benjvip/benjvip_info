@@ -20,8 +20,8 @@ export default function Contact() {
           <Image src={name} height={50} />
         </div>
         <div className=" w-full justify-center items-center flex space-x-8 pt-8">
-        <SocialIcon network="telegram" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
-        <SocialIcon network="twitter" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
+        <SocialIcon url="https://t.me/+N60uSKlGgIBkNmVh" network="telegram" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
+        <SocialIcon url="https://twitter.com/benjcoineth" network="twitter" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
 
         <SocialIcon network="discord" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
 </div>

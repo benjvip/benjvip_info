@@ -104,7 +104,8 @@ export default function Home() {
                 </li>
                  <div ><div className={righteous.className}>
             <div className="px-4 text-white rounded-3xl flex items-center py-4 justify-center border border-white hover:bg-[#A8D190]">
-                Buy Now
+                <Link href="https://app.uniswap.org/#/tokens/ethereum/0x13d0ff7b89824b0862725cce4b22bcdcf196473f">
+                Buy Now</Link>
             </div></div>
           </div>
               </ul>

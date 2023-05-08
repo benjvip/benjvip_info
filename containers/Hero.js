@@ -7,6 +7,8 @@ import { SocialIcon } from "react-social-icons";
 import { Righteous, Rubik } from "next/font/google";
 const righteous = Righteous({ weight: "400", subsets: ["latin"] });
 const rubik = Rubik({ weight: "300", subsets: ["latin"] });
+import uniswap from "../public/assets/uniswap.png";
+
 
 export default function Hero({ id }) {
   return (
@@ -44,18 +46,20 @@ export default function Hero({ id }) {
               <SocialIcon
                 network="twitter"
                 fgColor="white"
+                url="https://twitter.com/benjcoineth"
                 style={{ height: 80, width: 80 }}
               ></SocialIcon>
               <SocialIcon
-                network="twitter"
+                network="telegram"
                 fgColor="white"
+                url="https://t.me/+N60uSKlGgIBkNmVh"
                 style={{ height: 80, width: 80 }}
               ></SocialIcon>
-              <SocialIcon
-                network="twitter"
-                fgColor="white"
-                style={{ height: 80, width: 80 }}
-              ></SocialIcon>
+              <Link href="https://app.uniswap.org/#/tokens/ethereum/0x13d0ff7b89824b0862725cce4b22bcdcf196473f">
+              <Image
+                src={uniswap}
+                style={{ height: 90, width: 90 }}
+              ></Image></Link>
             </div>
           </motion.div>
         </div>
