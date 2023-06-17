@@ -22,7 +22,7 @@ export default function Home() {
     <main
       className="flex max-w-full min-h-screen flex-col bg-cover bg-[#577C43]"
     >
-       <div className=' bg-demon w-full bg-repeat-x    bg-center h-32'></div>
+       <div className=' bg-demon w-full bg-repeat-x  transition-transform  bg-center h-32'></div>
        <Hero id="#home"></Hero>
        <div className=' bg-demon w-full bg-repeat-x    bg-center h-32'></div>
        <About id="#about"></About>
